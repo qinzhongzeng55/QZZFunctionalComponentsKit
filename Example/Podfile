@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'QZZFunctionalComponentsKit_Example' do
+  pod 'QZZFunctionalComponentsKit', :path => '../'
+
+  target 'QZZFunctionalComponentsKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
