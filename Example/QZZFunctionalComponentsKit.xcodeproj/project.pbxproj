@@ -38,7 +38,7 @@
 
 /* Begin PBXFileReference section */
 		0D27B72A0778B5B142F469FC /* Pods-QZZFunctionalComponentsKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QZZFunctionalComponentsKit_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-QZZFunctionalComponentsKit_Example/Pods-QZZFunctionalComponentsKit_Example.release.xcconfig"; sourceTree = "<group>"; };
-		3D67F84F500A2006B8765300 /* QZZFunctionalComponentsKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = QZZFunctionalComponentsKit.podspec; path = ../QZZFunctionalComponentsKit.podspec; sourceTree = "<group>"; };
+		3D67F84F500A2006B8765300 /* QZZFunctionalComponentsKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = QZZFunctionalComponentsKit.podspec; path = ../QZZFunctionalComponentsKit.podspec; sourceTree = "<group>"; };
 		41B943E97164CDF886C81559 /* Pods-QZZFunctionalComponentsKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QZZFunctionalComponentsKit_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QZZFunctionalComponentsKit_Tests/Pods-QZZFunctionalComponentsKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		59E04BE68B24EDFF7566D36D /* Pods_QZZFunctionalComponentsKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QZZFunctionalComponentsKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* QZZFunctionalComponentsKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QZZFunctionalComponentsKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -61,11 +61,11 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		82167E47CE95E011CFB3E8E3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		82167E47CE95E011CFB3E8E3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9D5D9CE920DEADB1EF2CC4C9 /* Pods_QZZFunctionalComponentsKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QZZFunctionalComponentsKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C41225156BE4F227A4DE393F /* Pods-QZZFunctionalComponentsKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QZZFunctionalComponentsKit_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QZZFunctionalComponentsKit_Example/Pods-QZZFunctionalComponentsKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		FA0FE74EA257D96ED300AA93 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		FA0FE74EA257D96ED300AA93 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		FB6C5F6015477FA6F48B9C14 /* Pods-QZZFunctionalComponentsKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QZZFunctionalComponentsKit_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-QZZFunctionalComponentsKit_Tests/Pods-QZZFunctionalComponentsKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -247,6 +247,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = qinzhongzeng55;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = Y8A67YFY3R;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -337,11 +340,23 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-QZZFunctionalComponentsKit_Example/Pods-QZZFunctionalComponentsKit_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/FLAnimatedImage/FLAnimatedImage.framework",
+				"${BUILT_PRODUCTS_DIR}/FMDB/FMDB.framework",
+				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
+				"${BUILT_PRODUCTS_DIR}/QZZCategoryKit/QZZCategoryKit.framework",
 				"${BUILT_PRODUCTS_DIR}/QZZFunctionalComponentsKit/QZZFunctionalComponentsKit.framework",
+				"${BUILT_PRODUCTS_DIR}/QZZToolsKit/QZZToolsKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FLAnimatedImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FMDB.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/QZZCategoryKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/QZZFunctionalComponentsKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/QZZToolsKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -440,7 +455,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -473,7 +488,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -485,9 +500,11 @@
 			baseConfigurationReference = C41225156BE4F227A4DE393F /* Pods-QZZFunctionalComponentsKit_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Y8A67YFY3R;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "QZZFunctionalComponentsKit/QZZFunctionalComponentsKit-Prefix.pch";
 				INFOPLIST_FILE = "QZZFunctionalComponentsKit/QZZFunctionalComponentsKit-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -500,9 +517,11 @@
 			baseConfigurationReference = 0D27B72A0778B5B142F469FC /* Pods-QZZFunctionalComponentsKit_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Y8A67YFY3R;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "QZZFunctionalComponentsKit/QZZFunctionalComponentsKit-Prefix.pch";
 				INFOPLIST_FILE = "QZZFunctionalComponentsKit/QZZFunctionalComponentsKit-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";

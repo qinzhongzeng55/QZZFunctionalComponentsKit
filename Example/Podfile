@@ -1,8 +1,10 @@
+source 'https://github.com/qinzhongzeng55/QZZSpecs.git'
+source 'https://github.com/CocoaPods/Specs.git'
 use_frameworks!
 
 target 'QZZFunctionalComponentsKit_Example' do
   pod 'QZZFunctionalComponentsKit', :path => '../'
-
+  pod 'MJRefresh'
   target 'QZZFunctionalComponentsKit_Tests' do
     inherit! :search_paths
 

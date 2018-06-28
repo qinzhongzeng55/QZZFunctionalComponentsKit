@@ -1,0 +1,30 @@
+{
+  "name": "QZZFunctionalComponentsKit",
+  "version": "0.1.0",
+  "summary": "A short description of QZZFunctionalComponentsKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/qinzhongzeng55/QZZFunctionalComponentsKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "qinzhongzeng55": "qinzhongzeng55@163.com"
+  },
+  "source": {
+    "git": "https://github.com/qinzhongzeng55/QZZFunctionalComponentsKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "QZZFunctionalComponentsKit/Classes/**/*",
+  "dependencies": {
+    "QZZToolsKit": [
+
+    ],
+    "MJRefresh": [
+
+    ]
+  }
+}
