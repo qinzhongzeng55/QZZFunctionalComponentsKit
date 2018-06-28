@@ -11,6 +11,10 @@
 #endif
 
 #import "QZZRefresh.h"
+#import "TableViewAnimationKit.h"
+#import "TableViewAnimationKitConfig.h"
+#import "TableViewAnimationKitHeaders.h"
+#import "UITableView+XSAnimationKit.h"
 
 FOUNDATION_EXPORT double QZZFunctionalComponentsKitVersionNumber;
 FOUNDATION_EXPORT const unsigned char QZZFunctionalComponentsKitVersionString[];
